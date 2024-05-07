@@ -1,0 +1,7 @@
+.carousel-indicators [data-bs-target]{
+  width: 10px;
+  height: 10px;
+}
+.carousel-item img {
+  filter: grayscale(20%) brightness(70%) blur(0.5px);
+}
