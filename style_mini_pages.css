@@ -1,48 +1,91 @@
+CSS
 /* Reset CSS */
 html, body, header, footer, nav, main, article {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff; /* Assuming a light background from the image */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex; /* Added flexbox for horizontal layout */
+  justify-content: space-between; /* Distribute items horizontally */
+  align-items: center; /* Align items vertically */
 }
 
 header h1 {
-    margin: 0;
+  margin: 0;
+  flex-grow: 1; /* Make header text grow to fill space */
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold; /* Assuming bold text for navigation from image */
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {
-    margin: 0;
+  margin: 0;
+}
+
+/* Additional styles based on assumptions from the image */
+
+.hero-section { /* Assuming a hero section banner image */
+  background-image: url("path/to/your/image.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0; /* Assuming some padding around the hero section */
+  text-align: center; /* Assuming centered content in hero section */
+  color: #fff; /* Assuming white text over the image */
+}
+
+.hero-section h2 {
+  font-size: 2em; /* Assuming a larger font size for hero section heading */
+  margin-bottom: 10px; /* Assuming some space below the heading */
+}
+
+.service-section { /* Assuming a section with service boxes */
+  display: flex;
+  flex-wrap: wrap; /* Allow service boxes to wrap to multiple lines */
+  justify-content: space-around; /* Distribute service boxes evenly */
+  margin-top: 50px; /* Assuming some margin after hero section */
+}
+
+.service-box {
+  width: 30%; /* Assuming a specific width for service boxes */
+  background-color: #f1f1f1; /* Assuming a light gray background for boxes */
+  padding: 20px;
+  margin: 10px; /* Assuming some margin between boxes */
+  text-align: center;
+}
+
+.service-box h3 {
+  font-weight: bold; /* Assuming bold text for service box titles */
+  margin-bottom: 10px; /* Assuming some space below the titles */
 }
