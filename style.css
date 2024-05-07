@@ -103,3 +103,27 @@
 .nav-pills .nav-link:hover {
   background-color: (184, 99%, 99%) !important;
 }
+
+.carousel-caption {
+    text-align: left !important;
+    position: absolute !important;
+    top: 20% !important;
+}
+
+.slide-title {
+  font-size: calc(4vh + 5px) !important;
+}
+
+.carousel-caption .btn {
+  color: #ffffff; 
+  font-size: calc(1vh + 5px) !important;
+  background-color: rgb(231, 80, 20) !important;
+  border: transparent !important;
+  border-radius: 0% !important;
+}
+
+.carousel-caption .link {
+  color: #ffffff;
+  font-size: calc(1vh + 5px) !important;
+  margin: calc(2vh + 5px) !important;
+}
