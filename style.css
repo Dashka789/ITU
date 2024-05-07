@@ -103,9 +103,9 @@
 .nav-pills .nav-link:hover {
   background-color: (184, 99%, 99%) !important;
 }
-/* Increase space between search input and nav tab */
-.row section-title text-center {
-  margin-top: 80px; /* Adjust the value as needed */
+
+.section-title {
+  margin-top: 70px !important; 
 }
 
 .carousel-caption {
