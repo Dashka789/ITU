@@ -1,7 +1,15 @@
-.carousel-indicators [data-bs-target]{
-  width: 10px;
-  height: 10px;
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border: none !important; /* Remove any borders */
+  opacity: 0.5 !important; /* Adjust opacity as needed */
+  margin: 0 5px !important; /* Adjust margin as needed */
 }
+
+.carousel-indicators .active {
+  opacity: 1 !important; /* Make the active indicator fully visible */
+}
+
 .carousel-item img {
   filter: grayscale(20%) brightness(70%) blur(0.5px);
 }
