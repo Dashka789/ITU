@@ -1,13 +1,13 @@
 .carousel-indicators [data-bs-target] {
   width: 10px !important;
   height: 10px !important;
-  border: none !important; /* Remove any borders */
-  opacity: 0.5 !important; /* Adjust opacity as needed */
-  margin: 0 5px !important; /* Adjust margin as needed */
+  border: none !important; 
+  opacity: 0.5 !important; 
+  margin: 0 5px !important; 
 }
 
 .carousel-indicators .active {
-  opacity: 1 !important; /* Make the active indicator fully visible */
+  opacity: 1 !important;
 }
 
 .carousel-item img {
@@ -36,7 +36,7 @@
 .custom-search,
 .custom-button {
   height: 60px !important;
-  border-radius: 0 !important; /* Remove border radius */
+  border-radius: 0 !important;
 }
 .custom-button {
   background-color: hsl(16, 100%, 65%) !important;
@@ -47,11 +47,11 @@
 }
 
 .custom-search:focus {
-  box-shadow: none !important; /* Remove shadow on focus */
+  box-shadow: none !important;
 }
 
 .custom-button:focus {
-  outline: none !important; /* Remove blue outline on focus */
+  outline: none !important; 
 }
 
 .form-title,
@@ -60,7 +60,7 @@
 }
 .form-title {
   font-weight: 400;
-  line-height: 1; /* Adjust line height */
+  line-height: 1; 
 }
 .form-title strong {
   font-weight: bold;
@@ -68,11 +68,11 @@
 .col-md-9 p {
   margin: 10px;
 }
-/* Increase width of the navigation tab */
+
 #pills-tab {
   width: 100%;
 }
-/* Set background color for active tab */
+
 .nav-pills .nav-link.active,
 .nav-pills .nav-link.active:focus,
 .nav-pills .nav-link.active:hover {
@@ -80,28 +80,32 @@
     font-weight: bold;
   }
 
-/* Set background color for inactive tabs */
+
 .nav-pills .nav-link:not(.active) {
-    background-color: hsl(184, 99%, 99%) !important; /* gray */
+    background-color: hsl(184, 99%, 99%) !important; 
     
 }
 .nav-pills .nav-link {
   color: black !important;
 }
-/* Set background color for active tab */
+
 .nav-pills .nav-link.active {
   background-color: white !important;
 }
 
-/* Set background color for inactive tabs */
+
 .nav-pills .nav-link:not(.active) {
-  background-color: (184, 98%, 98%) !important; /* gray */
+  background-color: (184, 98%, 98%) !important;
   
 }
 
-/* Remove hover effect */
+
 .nav-pills .nav-link:hover {
   background-color: (184, 99%, 99%) !important;
+}
+/* Increase space between search input and nav tab */
+.row section-title text-center {
+  margin-top: 80px; /* Adjust the value as needed */
 }
 
 .carousel-caption {
