@@ -1,3 +1,4 @@
+
 .carousel-indicators [data-bs-target] {
   width: 10px !important;
   height: 10px !important;
@@ -109,27 +110,66 @@
 }
 
 .carousel-caption {
-    text-align: left !important;
-    position: absolute !important;
-    top: 25% !important;
-    width: 100%;
+  text-align: left !important;
+  position: absolute !important;
+  top: 25% !important;
+  width: 100%;
 }
 
 .slide-title {
-  font-size: calc(3vw + 4px) !important;
+font-size: calc(3vw + 4px) !important;
 }
 
 .carousel-caption .btn {
-  color: #ffffff; 
-  font-size: calc(1vw + 4px) !important;
-  background-color: rgb(231, 80, 20) !important;
-  border: transparent !important;
-  border-radius: 0% !important;
-  padding: calc(1vw + 1px) calc(1vw + 10px) !important;
+color: #ffffff; 
+font-size: calc(1vw + 4px) !important;
+background-color: rgb(231, 80, 20) !important;
+border: transparent !important;
+border-radius: 0% !important;
+padding: calc(1vw + 1px) calc(1vw + 10px) !important;
 }
 
 .carousel-caption .link {
-  color: #ffffff;
-  font-size: calc(1vw + 4px) !important;
-  margin: calc(2vh + 5px) !important;
+color: #ffffff;
+font-size: calc(1vw + 4px) !important;
+margin: calc(2vh + 5px) !important;
+}
+
+.navbar {
+position: relative;
+background-color: transparent;
+z-index: 1;
+}
+
+.navbar-brand {
+position: absolute;
+padding: calc(2vw + 4px) !important;
+top: 50%;
+left: 50px;
+transform: translateY(-50%);
+z-index: 2;
+}
+
+.navbar-nav {
+margin-left: auto;
+padding: calc(2vw + 4px) !important;
+font-size: calc(1vw + 4px) !important;
+color: white;
+}
+
+.navbar-nav .nav-link {
+color: inherit;
+}
+
+.navbar-toggler {
+color: white;
+}
+
+.nav-item.home {
+margin-left: 0;
+}
+
+.navbar-nav .nav-link.active {
+background-color: white;
+color: black;
 }
